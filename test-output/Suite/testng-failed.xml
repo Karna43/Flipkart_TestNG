@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="desktop" value="desktops"/>
+  <parameter name="browser" value="edge"/>
+  <parameter name="laptop" value="laptops"/>
+  <test name="TestingInChrome">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="general"/>
+        <include name="checkFilter"/>
+        <exclude name="storeData"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.flipkart.FilterLaptops"/>
+    </classes>
+  </test> <!-- TestingInChrome -->
+  <test name="TestingInEdge">
+    <parameter name="browser" value="edge"/>
+    <groups>
+      <run>
+        <include name="general"/>
+        <include name="checkFilter"/>
+        <exclude name="storeData"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.flipkart.FilterDesktops"/>
+    </classes>
+  </test> <!-- TestingInEdge -->
+</suite> <!-- Failed suite [Suite] -->

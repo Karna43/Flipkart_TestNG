@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-09T18:01:24Z" name="Default suite" finished-at="2024-03-09T18:01:56Z" duration-ms="32802">
+    <groups>
+    </groups>
+    <test started-at="2024-03-09T18:01:24Z" name="Default test" finished-at="2024-03-09T18:01:56Z" duration-ms="32802">
+      <class name="com.flipkart.FilterDellLaptops">
+        <test-method is-config="true" signature="launch_flipkart_website()[pri:0, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:24Z" name="launch_flipkart_website" finished-at="2024-03-09T23:31:35Z" duration-ms="11264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_flipkart_website -->
+        <test-method signature="search_Laptop(java.lang.String)[pri:0, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:35Z" name="search_Laptop" data-provider="laptop" finished-at="2024-03-09T23:31:39Z" duration-ms="4113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Laptop -->
+        <test-method signature="click_Brand()[pri:1, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:39Z" name="click_Brand" finished-at="2024-03-09T23:31:39Z" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_Brand -->
+        <test-method signature="check_Dell_Brand()[pri:2, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:39Z" name="check_Dell_Brand" finished-at="2024-03-09T23:31:41Z" duration-ms="2275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Dell_Brand -->
+        <test-method signature="scroll_To_SSD_Capacity()[pri:3, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:41Z" name="scroll_To_SSD_Capacity" finished-at="2024-03-09T23:31:45Z" duration-ms="3468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scroll_To_SSD_Capacity -->
+        <test-method signature="check_512gb_Capacity()[pri:4, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:45Z" name="check_512gb_Capacity" finished-at="2024-03-09T23:31:47Z" duration-ms="2175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_512gb_Capacity -->
+        <test-method signature="select_Min_Max_Price()[pri:5, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:47Z" name="select_Min_Max_Price" finished-at="2024-03-09T23:31:52Z" duration-ms="4521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Min_Max_Price -->
+        <test-method signature="get_Filtered_Dell_Laptop()[pri:6, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:52Z" name="get_Filtered_Dell_Laptop" finished-at="2024-03-09T23:31:56Z" duration-ms="4131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Filtered_Dell_Laptop -->
+        <test-method signature="create_Excel_File()[pri:7, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:56Z" name="create_Excel_File" finished-at="2024-03-09T23:31:56Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Excel_File -->
+        <test-method signature="store_Filtered_Data_In_Excel()[pri:8, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:56Z" name="store_Filtered_Data_In_Excel" finished-at="2024-03-09T23:31:56Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- store_Filtered_Data_In_Excel -->
+        <test-method signature="compare_Excel_Data_With_Actual()[pri:9, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:56Z" name="compare_Excel_Data_With_Actual" finished-at="2024-03-09T23:31:56Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compare_Excel_Data_With_Actual -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.flipkart.FilterDellLaptops@7a67e3c6]" started-at="2024-03-09T23:31:56Z" name="browserClose" finished-at="2024-03-09T23:31:56Z" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.flipkart.FilterDellLaptops -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
